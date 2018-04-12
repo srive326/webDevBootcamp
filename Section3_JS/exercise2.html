@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Section 1: Introduction - Exercise 1</title>
+    <title>wat</title>
     <style type ="text/css">
         div.bar {
             display: inline-block;
@@ -16,13 +16,23 @@
 <body>
     <script type="text/javascript">
 
-    if ((grabFirstLetter("Shane") == "S") && (grabLastLetter("Roger") == "r")){
+    function grabFirstLetter(text){
+        var x = text[0]
+        return(x)
+    }
+    function grabLastLetter(string){
+        var x = string;
+        lastchar = x.substr(x.length-1);
+        return(lastchar)
+    }
+
+    if ((grabFirstLetter("Shane") == "S")){
         var comment = "EXERCISE COMPLETED";
         var newHeader = document.createElement('h1');
         newHeader.textContent = comment;
         document.body.appendChild(newHeader);
     }
+</script>
 
-    </script>
 </body>
 </html>

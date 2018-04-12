@@ -1,0 +1,10 @@
+body {
+    background-color: #FFD6DC;
+}
+
+#graph-display{
+  background-color: #f5f5f5;
+  border-radius: 18px;
+  font-family: "Georgia";
+}
+
